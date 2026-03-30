@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Trabajo Practico N°1 Ej. 2</title>
+  </head>
+  <body>
+    <p>Mision: llegar a 1000 clicks</p>
+    <p>Click: <span id="contador">0</span></p>
+    <button id="btn">Incrementar</button>
+    <button id="btnrs">Resetear</button>
+
+    <script>
+      const display = document.getElementById('contador');
+      const boton = document.getElementById('btn');
+      const botonr = document.getElementById('btnrs');
+      let cuenta = 0;
+
+      boton.addEventListener('click', () => {
+        cuenta++;
+        display.textContent = cuenta;
+      });
+
+      botonr.addEventListener('click', () => {
+        cuenta=0;
+        display.textContent = cuenta;
+      });
+    </script>
+  </body>
+</html>

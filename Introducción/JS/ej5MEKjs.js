@@ -1,8 +1,8 @@
-function ejercicio5(){
+function ejercicio5() {
    let numero = parseInt(prompt("Introduzca un número entero a factorizar"))
-   for (let i = numero; i >0; i--){
-        let resultado = numero * i;
+   let resultado = 1;
+   for (var i = 1; i <= numero; i++) {
+      resultado = resultado * i;
    }
-
-   console.log("factorial del numero :", numero)
- }
+   console.log("factorial del numero :", resultado)
+}

@@ -1,5 +1,5 @@
 function ejercicio7() {
-    let texto= prompt("Escriba un texto");
+    let texto = prompt("Escriba un texto");
 
     if (!isNaN(texto)) {
         console.log("El texto contiene numeros.")

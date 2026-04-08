@@ -3,7 +3,7 @@ function ejercicio8() {
     let str = palin.replaceAll(" ","").toLowerCase();
     let inverStr = str.split("").reverse().join("");
 
-    if (str == arrStr) {  
+    if (str == inverStr) {  
         console.log("En efecto, es un palindromo");
     }
     else{

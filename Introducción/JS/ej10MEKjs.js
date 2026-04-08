@@ -6,7 +6,7 @@ function ejercicio10() {
         let dado2 = Math.floor(Math.random() *  6) + 1;
   
         let sumadados = dado1 + dado2;
-        valores[sumadados-2] = valores[sumadados] + 1
+        valores[sumadados-2] = valores[sumadados-2] + 1;
     }
 
     for(var i = 0; i <= 10; i++) {

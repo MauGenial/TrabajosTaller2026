@@ -13,4 +13,5 @@ function ejercicio7() {
     else {
         console.log("El texto que escribio contiene tanto mayusculas como minusculas");
     }
+    
 }

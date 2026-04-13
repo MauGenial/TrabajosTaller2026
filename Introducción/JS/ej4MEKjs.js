@@ -10,7 +10,7 @@ function ejercicio4(){
 
     if (!isNaN(lDNI) || lDNI == null || lDNI == " "){
         console.log("Uno o dos de los valores no es valido.")
-    while(true);
+        while(true);
     }
 
     if(DNI<0 || DNI>99999999){

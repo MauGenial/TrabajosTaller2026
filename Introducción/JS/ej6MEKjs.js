@@ -4,7 +4,7 @@ function ejercicio6(){
         console.log("Valor no valido.")
         while(true);
     }
-
+    
     else {
         let resto = numero % 2 
 

@@ -1,6 +1,6 @@
 function ejercicio3(){
     let numero1 = 5;
-    let numero2 = pa8;
+    let numero2 = 8;
     if(numero1<numero2) {
     console.log("El primer numero no es mayor que el segundo");
     }

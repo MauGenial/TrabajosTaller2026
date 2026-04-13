@@ -1,9 +1,11 @@
 function ejercicio7() {
     let texto = prompt("Escriba un texto");
 
-    if (!isNaN(texto)) {
-        console.log("El texto contiene numeros.")
+    if (!isNaN(texto) || texto == null || texto == " "){
+        console.log("Valor no valido.")
+        while(true);
     }
+
     else if (texto === texto.toLowerCase()) {
         console.log("El texto que escribio contiene solo minusculas");
     }

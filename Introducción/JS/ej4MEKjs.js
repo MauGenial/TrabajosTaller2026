@@ -3,6 +3,16 @@ function ejercicio4(){
     let DNI = parseInt(prompt("Número de DNI"))
     let lDNI = prompt("Introduzca la letra de su DNI")
 
+    if (isNaN(DNI) || DNI == null || DNI == " "){
+        console.log("Uno o dos de los valores no es valido.")
+        while(true);
+    }
+
+    if (!isNaN(lDNI) || lDNI == null || lDNI == " "){
+        console.log("Uno o dos de los valores no es valido.")
+    while(true);
+    }
+
     if(DNI<0 || DNI>99999999){
         console.log("El número de DNI ingresado no es valido")
         while(true);

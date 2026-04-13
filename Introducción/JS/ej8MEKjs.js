@@ -3,6 +3,11 @@ function ejercicio8() {
     let str = palin.replaceAll(" ","").toLowerCase();
     let inverStr = str.split("").reverse().join("");
 
+    if (!isNaN(palin) || palin == null || palin == " "){
+        console.log("Valor no valido.")
+        while(true);
+    }
+
     if (str == inverStr) {  
         console.log("En efecto, es un palindromo");
     }

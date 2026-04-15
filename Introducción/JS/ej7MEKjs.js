@@ -3,7 +3,6 @@ function ejercicio7() {
 
     if (!isNaN(texto) || texto == null || texto == " "){
         console.log("Valor no valido.")
-        while(true);
     }
 
     else if (texto === texto.toLowerCase()) {

@@ -5,7 +5,6 @@ function ejercicio8() {
 
     if (!isNaN(palin) || palin == null || palin == " "){
         console.log("Valor no valido.")
-        while(true);
     }
 
     if (str == inverStr) {  

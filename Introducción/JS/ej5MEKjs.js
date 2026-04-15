@@ -4,11 +4,11 @@ function ejercicio5() {
 
    if (isNaN(numero) || numero == null || numero == " "){
         console.log("Valor no valido.")
-        while(true);
    }
-   
-   for (var i = 1; i <= numero; i++) {
-      resultado = resultado * i;
+   else {
+      for (var i = 1; i <= numero; i++) {
+         resultado = resultado * i;
+      }
+      console.log("factorial del numero :", resultado)
    }
-   console.log("factorial del numero :", resultado)
 }

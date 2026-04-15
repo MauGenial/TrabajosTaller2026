@@ -10,7 +10,7 @@ function ejercicio3(){
     if(numero1<0 || numero1 !=0) {
     console.log("El primer numero es negativo o distinto de cero");
     }
-    if(numero1++ != numero2 && numero1++ < numero2 ) {
+    if(numero1++ <= numero2) {
     console.log("Incrementar en 1 unidad el valor de numero1 no lo hace mayor o igual que numero2");
     }
  }

@@ -6,7 +6,7 @@
 def tablaMultiplicarNumero():
     n = int(input("Ingresa un número entero de 1 a 10 👍"))
     if 1 <= n <= 10:
-        nombreFichero = f"fichero-{n}.txt"
+        nombreFichero = f"tabla-{n}.txt"
         with open(nombreFichero, "w", encoding="utf-8") as f:
             for i in range(1,11):
                 f.write(f"{n}x{i} = {n * i}\n") 
